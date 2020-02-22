@@ -1,0 +1,277 @@
+.container{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color:salmon;
+    flex-direction: column;
+    
+   
+
+}
+.menu{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: sandybrown;
+    align-items: center;
+
+}
+
+.menu1{
+    display: flex;
+    height: 50px;
+    width: 20%;
+    margin-left: 50px;
+   
+}
+
+.menu2{
+    display: flex;
+    height: 20px;
+    width: 20%;
+    margin-left: 400px;
+}
+
+.menu3{
+    display: flex;
+    height: 20px;
+    width: 7%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.menu4{
+    display: flex;
+    height: 20px;
+    width: 7%;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu5{
+    display: flex;
+    height: 20px;
+    width: 12%;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centro{
+    font-family: 'Nunito', sans-serif; 
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-color:white;
+    background-image: url("CDMX01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.parrafoCentro1{
+    height: 10px;
+    color: white;
+    font-size: 50px;
+    margin-top: 130px;
+}
+.parrafoCentro2{
+    color: white;
+}
+
+.encabezadoPromociones{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.encabezadoPromociones1{
+    display: flex;
+    height: 35px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.encabezadoPromociones2{
+    margin-left: 50px;
+}
+
+.promociones{
+    display: flex;
+    height: 2   00px;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+
+.promociones1{
+    display: flex;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 50px;
+    background-image: url("CDMX02.jpg");
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.promociones1Titulo{
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    height: 10px;
+}
+
+.promociones1Texto{
+    color: white;
+    font-size: 30px;
+    height: 10px;
+}
+
+.promociones2{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("CDMX03.jpg");
+
+}
+
+.promociones2Titulo{
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    height: 10px;
+}
+
+.promociones2Texto{
+    color: white;
+    font-size: 30px;
+    height: 10px;
+}
+.promociones3{
+    display: flex;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("CDMX04.jpg");
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.promociones3Titulo{
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    height: 10px;
+    
+}
+
+.promociones3Texto{
+    color: white;
+    font-size: 30px;
+    height: 10px;
+}
+
+.encabezadoHoteles{
+    display: flex;
+    flex-direction: column;
+    color: gray
+}
+
+.encabezadoHoteles1{
+    display: flex;
+    height: 35px;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.encabezadoHoteles2{
+    margin-left: 50px;
+}
+
+.hoteles{
+    display: flex;
+}
+.promociones4{
+    display: flex;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    background-image: url("CDMX05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+.promociones5{
+    display: flex;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url("CDMX06.jpg");
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.promociones5Titulo{
+  
+    color: white;
+    font-size: 30px;
+    height: 10px;
+}
+
+.promociones5Texto{
+    color: white;
+    font-size: 20px;
+    height: 10px;
+    margin-top: 30px;
+}
+.promociones6{
+    display: flex;
+    height: 200px;
+    width: 30%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("CDMX07.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+nav > a:hover {
+    display: flex;
+    color: orangered;
